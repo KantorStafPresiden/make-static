@@ -2,7 +2,7 @@
 
 ## Usage
 ```
-goscrape http://website.com
+make-static http://website.com
 ```
 
 ## Options
@@ -11,7 +11,7 @@ goscrape http://website.com
 Scrape a website and create an offline browsable version on the disk
 
 Usage:
-  goscrape http://website.com [flags]
+  make-static http://website.com [flags]
 
 Flags:
       --config string         config file (default is $HOME/.goscrape.yaml)
